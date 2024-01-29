@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="/images/shortcut-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <h1 style="text-align: center; color: blue; background-color: gainsboro">Welcome to My webpage</h1>
+    <hr>
+    <form action="">
+    <label for="user-name">Name:</label>
+        <input type="text" id="user-name" name="full-name" placeholder="Enter Your Name" value="Ripon"><br>
+    <label for="pass">Password:</label>
+        <input type="password" id="pass" placeholder="Enter Your Password"><br>
+    <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="Enter Your Email"><br>
+        Gender:<br>
+        <input type="radio" name="gen1" value="Male">Male
+        <input type="radio" name="gen1" value="Female">Female <br>
+        Favourite Subjects: <br>
+        <input type="checkbox" name="ie" id="phy"> Physics <br>
+        <input type="checkbox" name="ie" id="che"> Chemistry <br>
+        <input type="checkbox" name="ie" id="math"> Mathematics <br>
+        <input type="checkbox" name="ie" id="bio"> Biology <br>
+        <input type="checkbox" name="ie" id="ict"> I.C.T <br>
+        Select Your Region:
+        <input list="D">
+        <datalist id="D">
+            <option value="Dhaka"></option>
+            <option value="Chittagong"></option>
+            <option value="Rajshahi"></option>
+            <option value="Sylhet"></option>
+            <option value="Barishal"></option>
+            <option value="Narayanganj"></option>
+            <option value="Lakshmipur"></option>
+            <option value="Khulna"></option>
+            <option value="Mymensingh"></option>
+            <option value="Rangpur"></option>
+            <option value="Dohar"></option>
+            <option value="Manikganj"></option>
+            <option value="Rasulpur"></option>
+        </datalist>
+        <br>
+        <label for="phn">Phone:</label>
+
+        <select name="phone" id="phn">
+            <option value="+880">+880</option>
+            <option value="+91">+91</option>
+            <option value="+112">+112</option>
+            <option value="+566">+566</option>
+        </select>
+        
+        <input type="number" id="phn"> <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

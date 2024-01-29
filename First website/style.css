@@ -1,0 +1,44 @@
+
+.wel{
+    color:aliceblue; background-color:azure;
+}
+.intro{
+    color:goldenrod; background-color:bisque;
+}
+h1{
+    text-align: center;
+    text-decoration:solid;
+    color:aquamarine; background-color:rgb(167, 168, 168);
+}
+p{
+    background-color: rgb(218, 245, 66);
+}
+h2{
+    text-align: center;
+    text-shadow: 2px;
+    text-decoration:dotted ;
+}
+
+
+img{
+    max-width: 100%;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h3{
+    border: 2px solid tomato;
+    margin: 50px;
+    outline: auto;
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width:50px;
+    text-align: center;
+    text-decoration: none;
+}
